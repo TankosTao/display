@@ -8,15 +8,14 @@
 
     <ScrollView
         android:layout_width="386dp"
-        android:layout_height="395dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="35dp"
         android:layout_marginEnd="4dp"
         android:layout_marginRight="4dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="26dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -27,10 +26,11 @@
                 android:id="@+id/text_james"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:lineSpacingExtra="2dp"
                 android:paddingLeft="25dp"
                 android:paddingRight="10dp"
-
-                android:text="Gosling initially became known as the author of Gosling Emacs, and also invented the windowing system NeWS, which lost out to X Window because Sun did not give it an open source license. He is generally credited with having invented the Java programming language in 1994.[21][22][23] He created the original design of Java and implemented the language's original compiler and virtual machine.[24] Gosling traces the origins of the approach to his early graduate-student days, when he created a p-code virtual machine for the lab's DEC VAX computer, so that his professor could run programs written in UCSD Pascal. In the work leading to Java at Sun, he saw that architecture-neutral execution for widely distributed programs could be achieved by implementing a similar philosophy: always program for the same virtual machine.[25]  For his achievement, the National Academy of Engineering in the United States elected him as a Foreign Associate member.[26] Another contribution of Gosling's was co-writing the &quot;bundle&quot; program, a utility thoroughly detailed in Brian Kernighan and Rob Pike's book The Unix Programming Environment. "
                 android:textSize="20dp" />
         </LinearLayout>
     </ScrollView>
@@ -39,9 +39,9 @@
         android:id="@+id/imageView3"
         android:layout_width="323dp"
         android:layout_height="369dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="34dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="60dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
