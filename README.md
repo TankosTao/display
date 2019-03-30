@@ -1,2 +1,2 @@
 # display
-![img]（labs.gif）
+![Design]（labs.gif）
